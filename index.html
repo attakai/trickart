@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaiki Shidahara's Portfolio</title>
-    <link rel="stylesheet" href="css/resetcss.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <title>不思議な領事館</title>
+    <link rel="stylesheet" href="assets/scss/resetcss.css">
+    <link rel="stylesheet" href="assets/scss/style.css">
     <script>
         (function(d) {
           var config = {
-            kitId: 'zxz5ake',
+            kitId: 'fsj8yqc',
             scriptTimeout: 3000,
             async: true
           },
@@ -21,155 +18,97 @@
       </script>
 </head>
 <body>
-    <div id="cursor" class="cursor"></div>
-    <header>
-        <button class="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </button>
-    </header>
-
-    <section class="navigation">
-        <a href="index.html">TOP</a>
-        <a href="works/index.html">WORKS</a>
-        <a href="whoami/index.html">ABOUT ME</a>
-        <a href="index.html#contact">CONTACT</a>
-    </section>
-
-    <section id="main-visual">
-        <h1>
-            <span>PORTFOLIO</span><br>
-            Kaiki<br>
-            Shidahara*s
-        </h1>
-        <p>
-            伸びしろたくさん19歳。<br>
-            反省のできる、真面目でいい子です。
-        </p>
-        <h2 class="mv">
-            Web design / Coding / Graphics / Movies
-        </h2>
-    </section>
-    
-    <section id="anatani">
-        <section>
-            <div class="img"><img src="img/anatani-img.png" alt=""></div>
-            <div class="contents">
-                <h3>
-                    あなたに<br>
-                    寄り添うデザイン。<br>
-                    <span>
-                        Designs, that aligns to you.
-                    </span>
-                </h3>
-                <h4>
-                    共感と、美しさを紡ぐ。
-                </h4>
-                <p>
-                    共感を生み出すデザイン。<br>
-                    それはユーザーの心に寄り添い、彼らの感情やニーズを<br>
-                    デザインに反映させることだと私は考えます。<br>
-                    <br>
-                    ”美しさ”とはその表面にあらわれるものですが、<br>
-                    ”共感”はその奥深いところにあります。<br>
-                    <br>
-                    私はデザインの魔法を使って、人々の心に触れ、<br>
-                    彼らと共に歩む旅を提供したい。
-                </p>
-                <a href="works/index.html" class="button">WORKS</a>
+    <section id="content">
+        <header>
+            <button class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </header>
+        <section class="mv">
+            <div class="main_hito"><img src="assets/img/main_hito.png" alt=""></div>
+            <h1>
+                <img src="assets/img/title.png" alt="神戸トリックアート不思議な領事館">
+            </h1>
+            <div class="zusshiri">
+                <p class="zu">ず</p>
+                <p class="ltu">っ</p>
+                <p class="shi">し</p>
+                <p class="ri">り</p>
+                <p class="bikkuri">！</p>
             </div>
         </section>
-    </section>
 
-    <section id="nice">
-        <section>
-            <h2>
-                Nice to meet you. <br>
-                <span>お会いできて光栄です。</span>
-            </h2>
-            <div class="contents">
-                <div class="desc">
+        <article>
+            
+            <section>
+                <div class="time">
+                    <h2>
+                        営業時間
+                    </h2>
+                    <p>10:00 - 18:00</p>
+                </div>
+                <h2>不思議な世界へようこそ</h2>
+                <p>
+                    見て、触れて、写真を撮る<br>
+                    錯覚の世界で新たな驚きを体験し、<br>
+                    その面白さを友だちと共有しよう。<br>
+                    あなたにピッタリの、<br>
+                    ワクワクする体験がここにあります！
+                </p>
+            </section>
+
+            <section>
+                <h2>
+                    NEWS
+                </h2>
+                <div>
                     <h3>
-                        はじめまして。<br>
-                        <span>
-                            Thank you for visiting my site.
-                        </span>
+                        Newsタイトル
                     </h3>
                     <p>
-                        本ポートフォリオを閲覧頂き、ありがとうございます。<br>
-                        神戸電子専門学校でWebデザインを専攻している、<br>
-                        歯朶原快紀と申します。２５卒です。<br>
-                        <br>
-                        のびしろたくさん19歳。<br>
-                        みるみるデザインが上手くなるはずです。<br>
-                        <br>
-                        よろしくお願いします。
+                        説明文
                     </p>
-                    <a href="whoami/index.html" class="button">ABOUT ME</a>
+                </div>            
+            </section>
+
+            <section>
+                <h2>
+                    アクセス
+                </h2>
+                <div>
+                    <div>
+                        <!-- グーグルMAPが入る予定 -->
+                    </div>
+                    <address>
+                        <p>
+                            〒650-0002<br>
+                            兵庫県神戸市中央区北野町3-5-4<br>
+                            TEL.0120-888581<br>
+                            FAX.078-241-5537
+                        </p>
+                    </address>
                 </div>
-                <div class="img"><img src="img/nice-img.png" alt=""></div>
+            </section>
+
+        </article>
+
+        <footer>
+            <div>
+                <h2>
+                    <!-- ロゴ -->
+                </h2>
+                <div>
+                    <!-- SNS -->
+                </div>
             </div>
-        </section>
-    </section>
-
-    <section id="shumi">
-        <h3>
-            趣味で、<br>
-            人生を豊かに。<br>
-            <span>
-                Hobbies, can make my life enrich.
-            </span>
-        </h3>
-        <div>
-            <h4>
-                音楽、散歩、そして哲学 ―
-            </h4>
-            <p>
-                これらは私の日々の生活に豊かさと深みをもたらす重要な要素です。<br>
-                <br>
-                <br>
-                音楽は私の心の言葉であり、感情の表現の場です。<br>
-                様々なジャンルの音楽を楽しむことで、新たな世界への扉が開かれます。<br>
-                <br>
-                <br>
-                散歩は私に静寂と自然の美しさを与え、<br>
-                心と身体をリフレッシュさせる機会です。<br>
-                <br>
-                <br>
-                そして、哲学は私に深い問いかけを与え、<br>
-                人生や存在の意味について考えさせます。<br>
-                <br>
-                <br>
-                これらの趣味は、私の人生に豊かさと充実感をもたらし、<br>
-                常に新たな発見と学びの機会を提供してくれます。<br>
-            </p>
-            <a href="https://www.instagram.com/yamadajanaikamo/" target="_blank" class="button">INSTAGRAM</a>
-        </div>
-    </section>
-
-    <footer>
-        <section class="footer-container">
-            <h2 class="contact-link">
-                CONTACT ME.<br>
-                <span>on kd1353769@st.kobedenshi.ac.jp</span>
-            </h2>
-            <div class="line"></div>
-            <div class="links">
-                <ul class="sns">
-                    <li><a href="https://mail.google.com/mail/?view=cm&to=kd1353769@st.kobedenshi.ac.jp&cc=&bcc=&su=&body=" target="_blank"><img src="img/gmail.png" alt=""></a></li>
-                    <li><a href="https://www.instagram.com/yamadajanaikamo/" target="_blank"><img src="img/instagram.png" alt=""></a</li>
-                    <li><a href="https://twitter.com/elon_sub" target="_blank"><img src="img/X.png" alt=""></a></li>
-                </ul>
-                <ul class="footer-navigation">
-                    <li><a href="index.html">TOP</a></li>
-                    <li><a href="works/index.html">WORKS</a></li>
-                    <li><a href="whoami/index.html">ABOUT ME</a></li>
-                </ul>
+            <div>
+                <nav>
+                    <!-- サイトマップ -->
+                </nav>
             </div>
-        </section>
-    </footer>
-
-    <script src="script.js"></script>
+        </footer>
+    </section>
 </body>
 </html>

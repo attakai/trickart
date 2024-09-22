@@ -1,87 +1,221 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>不思議な領事館</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/resetcss.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <header>
-        <h1>
-            神戸トリックアート<br>
-            不思議な領事館
-        </h1>
-        <div>
-            <h2>
-                営業時間
-            </h2>
-            <p>10:00 - 18:00</p>
-        </div>
-    </header>
-
-    <article>
-        
-        <section>
-            <h2>不思議な世界へようこそ</h2>
-            <p>
-                見て、触れて、写真を撮る<br>
-                錯覚の世界で新たな驚きを体験し、<br>
-                その面白さを友だちと共有しよう。<br>
-                あなたにピッタリの、<br>
-                ワクワクする体験がここにあります！
-            </p>
-        </section>
-
-        <section>
-            <h2>
-                NEWS
-            </h2>
-            <div>
+    <div class="wrapper">
+        <div class="content">
+            <section id="mv">
+                <!-- 一旦飛ばす -->
+            </section>
+            <section id="welcome">
+                <h2>
+                    <img class="fushigi" src="img/fushigi.svg" alt="不思議">
+                    <span class="lead">な<span class="strong">世界</span>へようこそ。</span>
+                </h2>
                 <h3>
-                    Newsタイトル
+                    トリックアートは、普通の絵でも<br>
+                    不思議な世界に変わる楽しい芸術です。<br>
+                    絵を見る角度によって新しい世界が広がります。<br>
+                    あなたも絵の中に飛び込んでみませんか？
                 </h3>
-                <p>
-                    説明文
+                <p class="img"><img src="img/porttower.jpg" alt="ポートタワーが飛び出るやつ"></p>
+            </section>
+            <section id="trick">
+                <h2>
+                    <img src="img/sakkaku.svg" alt="錯覚">
+                </h2>
+                <p class="img">
+                    <img src="img/udefolder/ude.gif" alt="おっさん">
                 </p>
-            </div>            
-        </section>
-
-        <section>
-            <h2>
-                アクセス
-            </h2>
-            <div>
-                <div>
-                    <!-- グーグルMAPが入る予定 -->
-                </div>
-                <address>
-                    <p>
-                        〒650-0002<br>
-                        兵庫県神戸市中央区北野町3-5-4<br>
-                        TEL.0120-888581<br>
-                        FAX.078-241-5537
+                <h3>
+                    大人からお子様まで楽しんでいただける、<br>
+                    <span class="strong"><img src="img/mi.svg" alt="見"></span>て、<span class="strong"><img src="img/sawa.svg" alt="触"></span>って、<span class="strong"><img src="img/aso.svg" alt="遊"></span>ぶアート館です。
+                </h3>
+            </section>
+            <section id="news">
+                <h2>
+                    <img src="img/newsttl.svg" alt="新着情報">
+                </h2>
+                <ul>
+                    <li>
+                        <a href="#" class="newslist">
+                            <article>
+                                <p class="img"><img src="img/news_1.jpg" alt=""></p>
+                                <h3><span class="tag">うろこの家</span>2024.04.25</h3>
+                                <h4>Valkyrie×うろこの家コラボイベントではWebチケットを購入しないでください。</h4>
+                                <p class="summary">Webでのチケット購入はコラボ特典の予約ではありません</p>
+                            </article>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="newslist">
+                            <article>
+                                <p class="img"><img src="img/news_2.jpg" alt=""></p>
+                                <h3><span class="tag">うろこの家</span>2024.04.25</h3>
+                                <h4>大須賀純様が来館されました</h4>
+                                <p class="summary">大須賀純様がお越しになりました</p>
+                            </article>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="more">
+                            <img src="img/button.svg" alt="">
+                            <span>もっとみる</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section id="access">
+                <h2>
+                    <span class="strong"><span class="first">「</span>三ノ宮<span>」</span>「三宮<span>」</span></span><span class="eki">駅</span><span class="yori">より</span>徒歩<span class="time">15</span>分<br>
+                    <span class="sub">大阪・姫路・京都から直通！</span>
+                </h2>
+                <section class="table">
+                    <p class="table_1">
+                        <img src="img/table_1.svg" alt="">
                     </p>
-                </address>
+                    <h3>
+                        三宮・三ノ宮・神戸三宮
+                    </h3>
+                    <p class="table_2">
+                        <img src="img/table_2.svg" alt="">
+                    </p>
+                    <h3>神戸北野異人館街</h3>
+                    <p class="table_3">
+                        <img src="img/table_3.svg" alt="">
+                    </p>
+                </section>
+                <section class="list">
+                    <ul class="train">
+                        <li>
+                            <h4>
+                                <img src="img/eki01.svg" alt="阪急神戸線「三宮」駅東口">
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <img src="img/eki02.svg" alt="阪神本線「神戸三宮」東出口5番">
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <img src="img/eki03.svg" alt="ポートライナー「三ノ宮」駅">
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <img src="img/eki04.svg" alt="神戸市営地下鉄「三ノ宮」駅東出口8番">
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <img src="img/eki05.svg" alt="「神戸（三宮）」停留所">
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <img src="img/eki06.svg" alt="JR「新神戸」駅">
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <img src="img/eki07.svg" alt="神戸市営地下鉄「新神戸」駅">
+                            </h4>
+                        </li>
+                        <li class="last">
+                            <h4>
+                                <span class="light">からは</span>徒歩約<span class="time">15<span>分。</span></span>
+                            </h4>
+                        </li>
+                    </ul>
+                    <p>
+                        <span class="bold">シティーループバス</span>を使えば
+                        <span class="bold">徒歩<span class="time"><span class="big">1<span>分</span></span></span></span>
+                        <span class="small">でお越しただけます。</span>
+                    </p>
+                    <ul class="bus">
+                        <li>
+                            <h4>
+                                <img src="img/eki08.svg" alt="「三宮駅前（北行）」バス停">
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <img src="img/eki09.svg" alt="「北野異人館」バス停">
+                            </h4>
+                        </li>
+                        <li class="small">
+                            <h4>乗車</h4>
+                        </li>
+                        <li class="small">
+                            <h4>下車</h4>
+                        </li>
+                    </ul>
+                </section>
+                <a class="map">
+                    地図
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.1684904049457!2d135.18832987603557!3d34.7009299729195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60008ede1afdf439%3A0x94e0290715845764!2z56We5oi444OI44Oq44OD44Kv44Ki44O844OIIOS4jeaAneitsOOBqumgmOS6i-mkqA!5e0!3m2!1sja!2sjp!4v1726969731856!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </a>
+            </section>
+            <section id="contact">
+                <h2>
+                    連絡先
+                </h2>
+                <ul>
+                    <li>〒650-0002</li>
+                    <li>兵庫県神戸市中央区北野町3-5-4</li>
+                    <li>TEL.0120-888581</li>
+                    <li>FAX.078-241-5537</li>
+                </ul>
+            </section>
+        </div>
+        <section id="footer">
+            <div class="left">
+                <h2 class="logo">
+                    <img src="img/logo.jpg" alt="ロゴ">
+                </h2>
+                <ul class="sns">
+                    <li>
+                        <a href=""><img src="img/sns01.png" alt="instagram"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="img/sns02.png" alt="X"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="img/sns03.png" alt="facebook"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <nav>
+                    <a href="">このサイトについて</a>
+                    <a href="">お問い合わせ</a>
+                </nav>
+                <div class="time">
+                    <p class="opentime">
+                        開館時間：10:00～17:00（16:30受付終了）
+                    </p>
+                    <p class="closetime">
+                        休館日：まいにち
+                    </p>
+                </div>
             </div>
         </section>
-
-    </article>
-
-    <footer>
-        <div>
-            <h2>
-                <!-- ロゴ -->
-            </h2>
-            <div>
-                <!-- SNS -->
-            </div>
-        </div>
-        <div>
-            <nav>
-                <!-- サイトマップ -->
-            </nav>
-        </div>
-    </footer>
+        <footer>
+            <h3 class="copyright">
+                Copyright © 異人館うろこグループ. All Rights Reserved.
+            </h3>
+        </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
